@@ -1,0 +1,26 @@
+call plug#begin()
+Plug 'fatih/vim-go'
+call plug#end()
+
+colorscheme slate
+set nu
+set nocompatible
+
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" on pressing tab, insert 4 spaces
+set expandtab
+
+set noswapfile
+
+set smartindent
+
+set incsearch
+
+set backspace=indent,eol,start
+
+nmap ; :
+noremap ;; ;
