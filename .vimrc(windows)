@@ -23,4 +23,3 @@ set incsearch
 set backspace=indent,eol,start
 
 nmap ; :
-noremap ;; ;
