@@ -23,3 +23,33 @@ set incsearch
 set backspace=indent,eol,start
 
 nmap ; :
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
+
+//MAC
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go', { 'do': 'GoInstallBinaries' }
+call plug#end()
+
+set nu
+syntax on
+set ts=4 sw=4
+set backspace=indent,eol,start
+
+set whichwrap+=<,>,[,]
+colo blue
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
