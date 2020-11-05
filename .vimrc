@@ -4,7 +4,7 @@ call plug#begin()
 Plug 'fatih/vim-go'
 call plug#end()
 
-colorscheme slate
+colorscheme blue
 set nu
 set nocompatible
 
@@ -23,6 +23,7 @@ set smartindent
 set incsearch
 
 set backspace=indent,eol,start
+set whichwrap+=<,>,[,]
 
 nmap ; :
 
@@ -57,6 +58,3 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
-
-inoremap <C-e> <C-o>$
-inoremap <C-a> <C-o>0
