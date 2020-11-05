@@ -34,6 +34,8 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
+inoremap <C-e> <C-o>$
+inoremap <C-a> <C-o>0
 
 //MAC
 call plug#begin('~/.vim/plugged')
@@ -55,3 +57,6 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
+
+inoremap <C-e> <C-o>$
+inoremap <C-a> <C-o>0
